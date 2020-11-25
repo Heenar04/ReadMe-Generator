@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
+const generateMarkdown = require("./generateMarkdown")
 // importing file from 
 // var server = http.createServer(getUserInput);
 
@@ -43,7 +44,7 @@ try{
         },
 
         {
-            type: "input",
+            type: "list",
             message: "is there any License use?If Yes, please provide the name.",
             name: "license",
             choices: ['None', 'MIT','Apache'],
@@ -64,15 +65,15 @@ try{
             
         }
     ]);
+
   
-    // console.log(questions)
-    const filename = `${questions.message}`;
+   
 
     // function to write README file
-    function writeToFile(fileName, questions) {
-        return writeToFileAsync(fileName, questions);
+     
+       await fs.writeFileSync("ReadMe2.md", generateMarkdown(questions));
 
-    } 
+     
     console.log('Successfully wrote to answers');
 } catch (err) {
   console.log(err);
@@ -82,9 +83,9 @@ try{
 
     // Starting our servers
   
-    init();
+    
 }
-
+init();
     // function to initialize program
     // function init() {
 
