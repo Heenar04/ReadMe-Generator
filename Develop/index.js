@@ -15,12 +15,14 @@ const init = async () => {
                 name: "title",
 
             },
+            
             {
                 type: "input",
                 message: "Provide  the description of  project:",
                 name: "description",
 
             },
+
             {
                 type: "input",
                 message: "if applicable, write the steps required for its installation",
@@ -43,6 +45,7 @@ const init = async () => {
                 choices: ['Yes', 'No']
 
             },
+
             {
                 type: "input",
                 message: "please provide test needed ",
