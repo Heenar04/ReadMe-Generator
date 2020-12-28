@@ -37,9 +37,10 @@ try{
 
 
         {
-            type: "input",
+            type: "list",
             message: "Is there  any neccessary tests needed? ",
             name: "test",
+            choices:['Yes','No']
 
         },
 
@@ -59,9 +60,10 @@ try{
         
 
         {
-            type: 'input',
+            type: 'list',
             message: 'What is your preferred method of communication?',
             name: 'contact',
+            choices: ['email','message','phone']
             
         }
     ]);
