@@ -65,6 +65,9 @@ function generateMarkdown(data){
   ---
   ##Contact
   ${data.contact}
+  ---
+  ##Detail
+  ${data.detail}
 
 `}
 

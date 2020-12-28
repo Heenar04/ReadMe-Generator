@@ -1,7 +1,7 @@
-# jscf;
+# few;
 
   ## Description
-  chfids;
+  fe;
 ---
   ## Content
   *[Installation]{#installation}
@@ -13,17 +13,17 @@
  ---
 
   ## Installation 
-  fuh
+  fe
   
   ---
   ##Test
   Yes
 
-  ---
+ 
 
   ---
   ##Type
-  jaxnd
+  eg
 
   ---
   ##License
@@ -32,15 +32,12 @@
   ---
 
   ##Contribution
-  xwsk
+  eg
 
   ---
   ##Contact
   email
-
-
-
-
-
-
+  ---
+  ##Detail
+  undefined
 
