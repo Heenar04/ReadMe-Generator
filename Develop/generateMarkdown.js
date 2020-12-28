@@ -12,6 +12,18 @@ else if (license === "MIT")
   return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
 }
 }
+
+function checkTest(test){
+  if (test==="Yes"){
+      return {name: "type"}
+
+  }
+ else  (test === "No")
+{
+  return "No Test Needed "
+}
+
+}
 // function to generate markdown for README
 function generateMarkdown(data){
   return `# ${data.title};
@@ -34,6 +46,12 @@ function generateMarkdown(data){
   ---
   ##Test
   ${data.test}
+
+ 
+
+  ---
+  ##Type
+  ${data.type}
 
   ---
   ##License

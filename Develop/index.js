@@ -43,6 +43,13 @@ try{
             choices:['Yes','No']
 
         },
+        {
+            type: "input",
+            message: "please provide test needed ",
+            name: "type",
+            
+
+        },
 
         {
             type: "list",
@@ -51,6 +58,7 @@ try{
             choices: ['None', 'MIT','Apache'],
 
         },
+
         {
             type: "input",
             message: "Contribution",
