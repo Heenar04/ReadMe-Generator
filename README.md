@@ -15,7 +15,8 @@ A command-line application that dynamically generates a professional README.md f
 
 ## The application will be invoked by using the following command:
 
-```bash
+```
+bash
 node index.js
 ```
 
