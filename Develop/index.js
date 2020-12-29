@@ -15,7 +15,7 @@ const init = async () => {
                 name: "title",
 
             },
-            
+
             {
                 type: "input",
                 message: "Provide  the description of  project:",
@@ -33,8 +33,6 @@ const init = async () => {
                 type: "input",
                 message: "Give the content detail in  a table ",
                 name: "content",
-
-
             },
 
 
@@ -43,15 +41,12 @@ const init = async () => {
                 message: "Is there  any neccessary tests needed? ",
                 name: "test",
                 choices: ['Yes', 'No']
-
             },
 
             {
                 type: "input",
                 message: "please provide test needed ",
                 name: "type",
-
-
             },
 
             {
