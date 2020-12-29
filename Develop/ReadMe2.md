@@ -1,7 +1,7 @@
-# hanna;
+# ReadMe Generator;
 
   ## Description
-  dusA;
+  it will dynamically generate the readme;
 ---
   ## Content
   *[Installation]{#installation}
@@ -13,30 +13,30 @@
  ---
 
   ## Installation 
-  WFHWIE
+  npm install 
   
   ---
   ##Test
-  Yes
+  No
 
  
 
   ---
   ##Type
-  DFVF
+  none
 
   ---
   ##License
-  None
+  MIT
 
   ---
 
   ##Contribution
-  DIGF
+  acknowledged
 
   ---
   ##Contact
-  email
+  message
   ---
   ##Detail
   undefined
