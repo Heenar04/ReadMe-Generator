@@ -1,3 +1,23 @@
+const inquirer = require("inquirer")
+
+function checkTest(test){
+  if (test==="Yes"){
+     return { 
+      type: "input",
+      message: "please provide test needed ",
+      name: "type",
+  }}
+  
+ 
+ else  
+{
+   return ("No test needed")
+}
+
+}
+
+
+
 function checkLicense(license){
   if (license==="None"){
       return {name: "No License"}
@@ -13,17 +33,7 @@ else if (license === "MIT")
 }
 }
 
-function checkTest(test){
-  if (test==="Yes"){
-      return {name: "type"}
 
-  }
- else  (test === "No")
-{
-  return "No Test Needed "
-}
-
-}
 // function to generate markdown for README
 function generateMarkdown(data){
   return `# ${data.title};
@@ -50,10 +60,7 @@ function generateMarkdown(data){
  
 
   ---
-  ##Type
-  ${data.type}
-
-  ---
+ 
   ##License
   ${data.license}
 

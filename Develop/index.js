@@ -43,11 +43,11 @@ const init = async () => {
                 choices: ['Yes', 'No']
             },
 
-            {
-                type: "input",
-                message: "please provide test needed ",
-                name: "type",
-            },
+            // {
+            //     type: "input",
+            //     message: "please provide test needed ",
+            //     name: "type",
+            // },
 
             {
                 type: "list",

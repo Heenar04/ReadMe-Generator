@@ -1,7 +1,7 @@
-# ReadMe Generator;
+# j;
 
   ## Description
-  it will dynamically generate the readme;
+  ;
 ---
   ## Content
   *[Installation]{#installation}
@@ -13,30 +13,27 @@
  ---
 
   ## Installation 
-  npm install 
+  
   
   ---
   ##Test
-  No
+  Yes
 
  
 
   ---
-  ##Type
-  none
-
-  ---
+ 
   ##License
-  MIT
+  None
 
   ---
 
   ##Contribution
-  acknowledged
+  
 
   ---
   ##Contact
-  message
+  email
   ---
   ##Detail
   undefined
